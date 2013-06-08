@@ -1,0 +1,4 @@
+<map id="Scene::deleteLines" name="Scene::deleteLines">
+<area shape="rect" id="node2" href="$class_scene.html#a2c73e7f065e5df1726b170a6ca0cb794" title="simplify: regroupe les SceneObjects adjascents entre eux pour reduire le nombre d&#39;objets separes pres..." alt="" coords="187,5,298,32"/>
+<area shape="rect" id="node3" href="$class_scene_object.html#a1d13d801e32173b4b138f06564ceb6f9" title="glue: comme le nom l&#39;indique, cette fonction colle Obj a l&#39;object courant. Rien n&#39;interdit de coller ..." alt="" coords="347,5,477,32"/>
+</map>

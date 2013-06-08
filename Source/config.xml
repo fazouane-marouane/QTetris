@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Configuration>
+<GameInformation>
+  <information title="Name" content="QTetris" />
+  <information title="Icon" content="QTetris.png" />
+  <information title="Authors" content="" />
+</GameInformation>
+
+<MediaPlayer>
+  <media title="Nyan Cat" file="test.mp3" />
+  <media title="RickRoll" file="RickRoll.mp3" />
+</MediaPlayer>
+
+<MenuConfiguration>
+  <menu title="Main Menu">
+    <launcher title="New Game" widget="Login" />
+    <menu title="Settings">
+      <launcher title="Change the Volume" widget="Volume Controller" onStart="Play music" onExit="Stop music" />
+    </menu>
+    <launcher title="HighScores" />
+  </menu>
+  <launcher title="QTetris" backButton="HighScores" onStart="Play music" onExit="Stop music" />
+</MenuConfiguration>
+
+</Configuration>

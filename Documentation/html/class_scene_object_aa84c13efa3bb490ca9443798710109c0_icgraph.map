@@ -1,0 +1,8 @@
+<map id="SceneObject::simple_fall" name="SceneObject::simple_fall">
+<area shape="rect" id="node2" href="$class_scene.html#a09fef31f4f25e5c1ab2a1b4366710c05" title="gravity: fait tomber tout les objets(tout le monde tombe a la meme vitesse) et les relie entre eux (a..." alt="" coords="221,56,325,83"/>
+<area shape="rect" id="node3" href="$class_scene.html#a5fecb70ddb90dcde0eb0bc66875b88ed" title="doPhysics: gere la physique (gravite+ suppressions de lignes multiples...etc)" alt="" coords="373,31,501,57"/>
+<area shape="rect" id="node7" href="$class_scene.html#ac5739680655eda8de8eb5f7dc80562fd" title="Scene::timerEvent" alt="" coords="373,81,501,108"/>
+<area shape="rect" id="node4" href="$classgame_manager.html#a029638f6842dc0372ed41df0f6cc7c9c" title="mainloop : gerer les fontions ci&#45;dessous 1) verifier si on a besoin un nouveau tetrimino par la valeu..." alt="" coords="549,31,717,57"/>
+<area shape="rect" id="node5" href="$classgame_manager.html#a02a1a2ce80a6c1261744544229abb5d5" title="timerEvent va gerer les &quot;timer event&quot;" alt="" coords="765,5,939,32"/>
+<area shape="rect" id="node6" href="$class_main_window.html#a5edcbc314e782645cdf4db101eeb247d" title="quand le jeu viens de commencer, la fonction start va initiliser l&#39;affichage de niveau et de note Il ..." alt="" coords="787,56,917,83"/>
+</map>

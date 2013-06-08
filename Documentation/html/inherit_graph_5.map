@@ -1,0 +1,4 @@
+<map id="Graphe hiérarchique des classes" name="Graphe hiérarchique des classes">
+<area shape="rect" id="node1" href="$class_scene_object.html" title="The SceneObject class." alt="" coords="6,5,103,32"/>
+<area shape="rect" id="node2" href="$class_tetromino.html" title="La classe Tetromino est un objet qui peut etre lui aussi present dans la Scene. Il represente la piec..." alt="" coords="153,5,231,32"/>
+</map>

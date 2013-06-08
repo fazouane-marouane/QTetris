@@ -1,0 +1,3 @@
+<map id="gameManager::getTeromino" name="gameManager::getTeromino">
+<area shape="rect" id="node2" href="$class_scene.html#aef0ebd71e55ef8b767c14881dfe2bf84" title="getTeromino: donne le tetromino courant qu&#39;on manipule" alt="" coords="237,5,376,32"/>
+</map>

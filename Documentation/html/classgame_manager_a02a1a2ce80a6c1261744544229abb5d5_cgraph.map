@@ -1,0 +1,22 @@
+<map id="gameManager::timerEvent" name="gameManager::timerEvent">
+<area shape="rect" id="node2" href="$classgame_manager.html#a029638f6842dc0372ed41df0f6cc7c9c" title="mainloop : gerer les fontions ci&#45;dessous 1) verifier si on a besoin un nouveau tetrimino par la valeu..." alt="" coords="227,157,395,184"/>
+<area shape="rect" id="node17" href="$classgame_manager.html#a09fc4c141e4009bbdf79c47dc624f5f7" title="affichage Appeler S.show() regulierement pour quelle ait une copie plus recente de son etat lorsqu&#39;on..." alt="" coords="229,259,392,285"/>
+<area shape="rect" id="node20" href="$classgame_manager.html#ad5003b2be103867d004c9c8520a6f2d6" title="pause sert a mettre le gamemanager en pause ou a le relancer" alt="" coords="237,309,384,336"/>
+<area shape="rect" id="node21" href="$classgame_manager.html#aef300aadc4273cb604f35072bd83cee9" title="nextLevel va emettre un signal quand on a un nouveau niveau" alt="" coords="227,360,394,387"/>
+<area shape="rect" id="node3" href="$class_scene.html#a46523c47dc57083e6052e9daa989d4e5" title="new_Teromino" alt="" coords="477,5,627,32"/>
+<area shape="rect" id="node4" href="$classgame_manager.html#a92ca22acf4899040fb9e3a163f4aad7a" title="tetrominoChanged va emettre un signal quand on a un nouveau tetromino" alt="" coords="443,56,661,83"/>
+<area shape="rect" id="node5" href="$class_scene.html#a181b7a8684fe5dabe9d85c70a2b61497" title="deleteLines: suppression des lignes completes; modifie le score" alt="" coords="735,5,868,32"/>
+<area shape="rect" id="node8" href="$class_scene.html#a5fecb70ddb90dcde0eb0bc66875b88ed" title="doPhysics: gere la physique (gravite+ suppressions de lignes multiples...etc)" alt="" coords="488,157,616,184"/>
+<area shape="rect" id="node14" href="$classgame_manager.html#aa38b81b8fc1fab8589e30525beb1597c" title="IsGameOver Si le valeur de &quot;S.gameOver&quot; = true, il va arreter tous les timeurs et fair &quot;var_gameOver&quot;..." alt="" coords="461,208,643,235"/>
+<area shape="rect" id="node16" href="$classgame_manager.html#a2be1e3710075ad086df9fffe41983ba5" title="scoreChanged va emettre un signal quand on a une nouvelle note" alt="" coords="455,259,649,285"/>
+<area shape="rect" id="node6" href="$class_scene.html#a2c73e7f065e5df1726b170a6ca0cb794" title="simplify: regroupe les SceneObjects adjascents entre eux pour reduire le nombre d&#39;objets separes pres..." alt="" coords="970,81,1081,108"/>
+<area shape="rect" id="node7" href="$class_scene_object.html#a1d13d801e32173b4b138f06564ceb6f9" title="glue: comme le nom l&#39;indique, cette fonction colle Obj a l&#39;object courant. Rien n&#39;interdit de coller ..." alt="" coords="1158,81,1287,108"/>
+<area shape="rect" id="node9" href="$class_tetromino.html#aefde80bd85feb2e13c1d88b9bb7d7f22" title="move" alt="" coords="743,56,860,83"/>
+<area shape="rect" id="node10" href="$class_scene_object.html#a08a364d539d87eb3962a15ff58c80ac2" title="hitsTheFloor2 verifie si l&#39;objet est enfonce en bas de la scene." alt="" coords="710,107,893,133"/>
+<area shape="rect" id="node11" href="$class_scene_object.html#ad5ba5917dcf69fcabcd36c5edab576c5" title="collide: verifie la collision entre deux SceneObject, c&#39;est a dire les deux possedent des parties qui..." alt="" coords="730,157,873,184"/>
+<area shape="rect" id="node12" href="$class_scene.html#a09fef31f4f25e5c1ab2a1b4366710c05" title="gravity: fait tomber tout les objets(tout le monde tombe a la meme vitesse) et les relie entre eux (a..." alt="" coords="749,208,853,235"/>
+<area shape="rect" id="node13" href="$class_scene_object.html#aa84c13efa3bb490ca9443798710109c0" title="simple_fall: fait tomber l&#39;objet courant d&#39;une ligne" alt="" coords="942,208,1109,235"/>
+<area shape="rect" id="node15" href="$classgame_manager.html#af7fd2cf7b6a74dd3e095562361de2350" title="exitGame : juste pour debug Affichage &quot;Game Over&quot; si le jeu est termine" alt="" coords="717,259,885,285"/>
+<area shape="rect" id="node18" href="$class_scene.html#a12b68950547af161d6f3f88dd00f6e53" title="show: affichage de la carte" alt="" coords="503,309,601,336"/>
+<area shape="rect" id="node19" href="$class_scene_object.html#a90ed5025e4dd72be01c4c3d438d47cbd" title="print: affiche le contenu du SceneObject courant sur le tableau passe en parametre" alt="" coords="736,309,867,336"/>
+</map>

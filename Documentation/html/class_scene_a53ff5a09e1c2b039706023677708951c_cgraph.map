@@ -1,0 +1,6 @@
+<map id="Scene::makeMove" name="Scene::makeMove">
+<area shape="rect" id="node2" href="$class_tetromino.html#aefde80bd85feb2e13c1d88b9bb7d7f22" title="move" alt="" coords="217,5,335,32"/>
+<area shape="rect" id="node3" href="$class_scene_object.html#a47c0ac4c0c404b812b3b8d91a490e8c6" title="hitsTheWall" alt="" coords="189,56,363,83"/>
+<area shape="rect" id="node4" href="$class_scene_object.html#a08a364d539d87eb3962a15ff58c80ac2" title="hitsTheFloor2 verifie si l&#39;objet est enfonce en bas de la scene." alt="" coords="185,107,367,133"/>
+<area shape="rect" id="node5" href="$class_scene_object.html#ad5ba5917dcf69fcabcd36c5edab576c5" title="collide: verifie la collision entre deux SceneObject, c&#39;est a dire les deux possedent des parties qui..." alt="" coords="205,157,347,184"/>
+</map>

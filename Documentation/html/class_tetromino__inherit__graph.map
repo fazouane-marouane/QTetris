@@ -1,0 +1,3 @@
+<map id="Tetromino" name="Tetromino">
+<area shape="rect" id="node2" href="$class_scene_object.html" title="The SceneObject class." alt="" coords="5,5,160,288"/>
+</map>

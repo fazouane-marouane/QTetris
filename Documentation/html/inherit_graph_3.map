@@ -1,0 +1,4 @@
+<map id="Graphe hiérarchique des classes" name="Graphe hiérarchique des classes">
+<area shape="rect" id="node2" href="$class_next_tetromino_widget.html" title="Cette classe est un objet qui peut etre present dans &quot;scene&quot; qui se trouve dans le coin de l&#39;ecran..." alt="" coords="165,5,312,32"/>
+<area shape="rect" id="node3" href="$classwidget.html" title="Affichager le scene de jeu et traiter préliminairement les controles qui vont etre passe au gameManag..." alt="" coords="209,56,268,83"/>
+</map>

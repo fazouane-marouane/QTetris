@@ -1,0 +1,10 @@
+<map id="SceneObject::glue" name="SceneObject::glue">
+<area shape="rect" id="node2" href="$class_scene.html#a2c73e7f065e5df1726b170a6ca0cb794" title="simplify: regroupe les SceneObjects adjascents entre eux pour reduire le nombre d&#39;objets separes pres..." alt="" coords="185,81,295,108"/>
+<area shape="rect" id="node3" href="$class_scene.html#a09fef31f4f25e5c1ab2a1b4366710c05" title="gravity: fait tomber tout les objets(tout le monde tombe a la meme vitesse) et les relie entre eux (a..." alt="" coords="359,56,463,83"/>
+<area shape="rect" id="node9" href="$class_scene.html#a181b7a8684fe5dabe9d85c70a2b61497" title="deleteLines: suppression des lignes completes; modifie le score" alt="" coords="344,107,477,133"/>
+<area shape="rect" id="node4" href="$class_scene.html#a5fecb70ddb90dcde0eb0bc66875b88ed" title="doPhysics: gere la physique (gravite+ suppressions de lignes multiples...etc)" alt="" coords="525,5,653,32"/>
+<area shape="rect" id="node8" href="$class_scene.html#ac5739680655eda8de8eb5f7dc80562fd" title="Scene::timerEvent" alt="" coords="525,56,653,83"/>
+<area shape="rect" id="node5" href="$classgame_manager.html#a029638f6842dc0372ed41df0f6cc7c9c" title="mainloop : gerer les fontions ci&#45;dessous 1) verifier si on a besoin un nouveau tetrimino par la valeu..." alt="" coords="701,56,869,83"/>
+<area shape="rect" id="node6" href="$classgame_manager.html#a02a1a2ce80a6c1261744544229abb5d5" title="timerEvent va gerer les &quot;timer event&quot;" alt="" coords="917,31,1091,57"/>
+<area shape="rect" id="node7" href="$class_main_window.html#a5edcbc314e782645cdf4db101eeb247d" title="quand le jeu viens de commencer, la fonction start va initiliser l&#39;affichage de niveau et de note Il ..." alt="" coords="939,81,1069,108"/>
+</map>

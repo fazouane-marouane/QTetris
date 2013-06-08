@@ -1,0 +1,571 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.3"/>
+<title>QTetris: Référence de la classe gameManager</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="QTetris.png"/></td>
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">QTetris
+   &#160;<span id="projectnumber">v2.0</span>
+   </div>
+   <div id="projectbrief">Projet IN204</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.8.3 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Page&#160;principale</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+      <li><a href="files.html"><span>Fichiers</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Recherche" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Liste&#160;des&#160;classes</span></a></li>
+      <li><a href="classes.html"><span>Index&#160;des&#160;classes</span></a></li>
+      <li><a href="inherits.html"><span>Hiérarchie&#160;des&#160;classes</span></a></li>
+      <li><a href="functions.html"><span>Membres&#160;de&#160;classe</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Tout</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Fonctions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-slots">Connecteurs publics</a> &#124;
+<a href="#signals">Signaux</a> &#124;
+<a href="#pub-methods">Fonctions membres publiques</a> &#124;
+<a href="#pro-methods">Fonctions membres protégées</a> &#124;
+<a href="classgame_manager-members.html">Liste de tous les membres</a>  </div>
+  <div class="headertitle">
+<div class="title">Référence de la classe gameManager</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>le class gameMangager va gerer les regles du jeu, e.g. le choi de tetromino a l'instant et a l'avenir, la note, la niveau de difficulte, la vitenesse de jeu...  
+ <a href="classgame_manager.html#details">Plus de détails...</a></p>
+
+<p><code>#include &lt;<a class="el" href="game_manager_8h_source.html">gameManager.h</a>&gt;</code></p>
+<div class="dynheader">
+Graphe d'héritage de gameManager:</div>
+<div class="dyncontent">
+<div class="center"><img src="classgame_manager__inherit__graph.png" border="0" usemap="#game_manager_inherit__map" alt="Inheritance graph"/></div>
+<map name="game_manager_inherit__map" id="game_manager_inherit__map">
+</map>
+</div>
+<div class="dynheader">
+Graphe de collaboration de gameManager:</div>
+<div class="dyncontent">
+<div class="center"><img src="classgame_manager__coll__graph.png" border="0" usemap="#game_manager_coll__map" alt="Collaboration graph"/></div>
+<map name="game_manager_coll__map" id="game_manager_coll__map">
+</map>
+</div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-slots"></a>
+Connecteurs publics</h2></td></tr>
+<tr class="memitem:ad5003b2be103867d004c9c8520a6f2d6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad5003b2be103867d004c9c8520a6f2d6"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgame_manager.html#ad5003b2be103867d004c9c8520a6f2d6">pause</a> ()</td></tr>
+<tr class="memdesc:ad5003b2be103867d004c9c8520a6f2d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">pause sert a mettre le gamemanager en pause ou a le relancer <br/></td></tr>
+<tr class="separator:ad5003b2be103867d004c9c8520a6f2d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f980e9de05bc58ac618eb2f10b6232d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgame_manager.html#a0f980e9de05bc58ac618eb2f10b6232d">keyPressEvent</a> (QKeyEvent *ev)</td></tr>
+<tr class="memdesc:a0f980e9de05bc58ac618eb2f10b6232d"><td class="mdescLeft">&#160;</td><td class="mdescRight">gestion des controles de clavier  <a href="#a0f980e9de05bc58ac618eb2f10b6232d"></a><br/></td></tr>
+<tr class="separator:a0f980e9de05bc58ac618eb2f10b6232d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="signals"></a>
+Signaux</h2></td></tr>
+<tr class="memitem:a2be1e3710075ad086df9fffe41983ba5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgame_manager.html#a2be1e3710075ad086df9fffe41983ba5">scoreChanged</a> (int)</td></tr>
+<tr class="memdesc:a2be1e3710075ad086df9fffe41983ba5"><td class="mdescLeft">&#160;</td><td class="mdescRight">scoreChanged va emettre un signal quand on a une nouvelle note  <a href="#a2be1e3710075ad086df9fffe41983ba5"></a><br/></td></tr>
+<tr class="separator:a2be1e3710075ad086df9fffe41983ba5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef300aadc4273cb604f35072bd83cee9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgame_manager.html#aef300aadc4273cb604f35072bd83cee9">nextLevel</a> (int)</td></tr>
+<tr class="memdesc:aef300aadc4273cb604f35072bd83cee9"><td class="mdescLeft">&#160;</td><td class="mdescRight">nextLevel va emettre un signal quand on a un nouveau niveau  <a href="#aef300aadc4273cb604f35072bd83cee9"></a><br/></td></tr>
+<tr class="separator:aef300aadc4273cb604f35072bd83cee9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92ca22acf4899040fb9e3a163f4aad7a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgame_manager.html#a92ca22acf4899040fb9e3a163f4aad7a">tetrominoChanged</a> (int, int, int)</td></tr>
+<tr class="memdesc:a92ca22acf4899040fb9e3a163f4aad7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">tetrominoChanged va emettre un signal quand on a un nouveau tetromino  <a href="#a92ca22acf4899040fb9e3a163f4aad7a"></a><br/></td></tr>
+<tr class="separator:a92ca22acf4899040fb9e3a163f4aad7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Fonctions membres publiques</h2></td></tr>
+<tr class="memitem:acb7eb79a41aa271179bb2ac27d4bc3aa"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acb7eb79a41aa271179bb2ac27d4bc3aa"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>gameManager</b> (QWidget *parent=0)</td></tr>
+<tr class="separator:acb7eb79a41aa271179bb2ac27d4bc3aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a029638f6842dc0372ed41df0f6cc7c9c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a029638f6842dc0372ed41df0f6cc7c9c"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgame_manager.html#a029638f6842dc0372ed41df0f6cc7c9c">mainLoop</a> ()</td></tr>
+<tr class="memdesc:a029638f6842dc0372ed41df0f6cc7c9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">mainloop : gerer les fontions ci-dessous 1) verifier si on a besoin un nouveau tetrimino par la valeur de "S.need_new_tetromino" 2) appeler S.doPhysics() : gerer la physique (gravite+ suppressions de lignes multiples...etc) 3) verifier le nombre de lignes supprime a la meme temps, et calculer la note. 4) appeler <a class="el" href="classgame_manager.html#aa38b81b8fc1fab8589e30525beb1597c" title="IsGameOver Si le valeur de &quot;S.gameOver&quot; = true, il va arreter tous les timeurs et fair &quot;var_gameOver&quot;...">isGameOver()</a>: verifier si le jeu est termine <br/></td></tr>
+<tr class="separator:a029638f6842dc0372ed41df0f6cc7c9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09fc4c141e4009bbdf79c47dc624f5f7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a09fc4c141e4009bbdf79c47dc624f5f7"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgame_manager.html#a09fc4c141e4009bbdf79c47dc624f5f7">affichage</a> ()</td></tr>
+<tr class="memdesc:a09fc4c141e4009bbdf79c47dc624f5f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">affichage Appeler S.show() regulierement pour quelle ait une copie plus recente de son etat lorsqu'on voudra effectivement l'afficher a l'ecran. <br/></td></tr>
+<tr class="separator:a09fc4c141e4009bbdf79c47dc624f5f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac69b353e652fb485c14af06213b5b955"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgame_manager.html#ac69b353e652fb485c14af06213b5b955">Show</a> ()</td></tr>
+<tr class="memdesc:ac69b353e652fb485c14af06213b5b955"><td class="mdescLeft">&#160;</td><td class="mdescRight">show: sert d'intermediaire entre la classe <a class="el" href="class_scene.html" title="The Scene class is the scene manager used in the game. It&#39;s.">Scene</a> et le widget d'affichage  <a href="#ac69b353e652fb485c14af06213b5b955"></a><br/></td></tr>
+<tr class="separator:ac69b353e652fb485c14af06213b5b955"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e371acd7a01e54d0ad2857d5e34a0c3"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgame_manager.html#a1e371acd7a01e54d0ad2857d5e34a0c3">getScore</a> ()</td></tr>
+<tr class="memdesc:a1e371acd7a01e54d0ad2857d5e34a0c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">getScore: getter de la valeur courante du score  <a href="#a1e371acd7a01e54d0ad2857d5e34a0c3"></a><br/></td></tr>
+<tr class="separator:a1e371acd7a01e54d0ad2857d5e34a0c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a637cb3d706fe5f8b1c520324cbac73ed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_tetromino.html">Tetromino</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgame_manager.html#a637cb3d706fe5f8b1c520324cbac73ed">getTeromino</a> ()</td></tr>
+<tr class="memdesc:a637cb3d706fe5f8b1c520324cbac73ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">getTeromino getter du tetromino courant  <a href="#a637cb3d706fe5f8b1c520324cbac73ed"></a><br/></td></tr>
+<tr class="separator:a637cb3d706fe5f8b1c520324cbac73ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec14961735c2b69913fad9056bc5c6a5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgame_manager.html#aec14961735c2b69913fad9056bc5c6a5">need_newTetromino</a> ()</td></tr>
+<tr class="memdesc:aec14961735c2b69913fad9056bc5c6a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">need_newTetromino  <a href="#aec14961735c2b69913fad9056bc5c6a5"></a><br/></td></tr>
+<tr class="separator:aec14961735c2b69913fad9056bc5c6a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7fd2cf7b6a74dd3e095562361de2350"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af7fd2cf7b6a74dd3e095562361de2350"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgame_manager.html#af7fd2cf7b6a74dd3e095562361de2350">exitGame</a> ()</td></tr>
+<tr class="memdesc:af7fd2cf7b6a74dd3e095562361de2350"><td class="mdescLeft">&#160;</td><td class="mdescRight">exitGame : juste pour debug Affichage "Game Over" si le jeu est termine <br/></td></tr>
+<tr class="separator:af7fd2cf7b6a74dd3e095562361de2350"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa38b81b8fc1fab8589e30525beb1597c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa38b81b8fc1fab8589e30525beb1597c"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgame_manager.html#aa38b81b8fc1fab8589e30525beb1597c">isGameOver</a> ()</td></tr>
+<tr class="memdesc:aa38b81b8fc1fab8589e30525beb1597c"><td class="mdescLeft">&#160;</td><td class="mdescRight">IsGameOver Si le valeur de "S.gameOver" = true, il va arreter tous les timeurs et fair "var_gameOver" = ture. <br/></td></tr>
+<tr class="separator:aa38b81b8fc1fab8589e30525beb1597c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Fonctions membres protégées</h2></td></tr>
+<tr class="memitem:a02a1a2ce80a6c1261744544229abb5d5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgame_manager.html#a02a1a2ce80a6c1261744544229abb5d5">timerEvent</a> (QTimerEvent *event)</td></tr>
+<tr class="memdesc:a02a1a2ce80a6c1261744544229abb5d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">timerEvent va gerer les "timer event"  <a href="#a02a1a2ce80a6c1261744544229abb5d5"></a><br/></td></tr>
+<tr class="separator:a02a1a2ce80a6c1261744544229abb5d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Description détaillée</h2>
+<div class="textblock"><p>le class gameMangager va gerer les regles du jeu, e.g. le choi de tetromino a l'instant et a l'avenir, la note, la niveau de difficulte, la vitenesse de jeu... </p>
+
+<p>Définition à la ligne <a class="el" href="game_manager_8h_source.html#l00020">20</a> du fichier <a class="el" href="game_manager_8h_source.html">gameManager.h</a>.</p>
+</div><h2 class="groupheader">Documentation des fonctions membres</h2>
+<a class="anchor" id="a1e371acd7a01e54d0ad2857d5e34a0c3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int gameManager::getScore </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>getScore: getter de la valeur courante du score </p>
+<dl class="section return"><dt>Renvoie</dt><dd>score : la note que le joueur a gagne </dd></dl>
+
+<p>Définition à la ligne <a class="el" href="game_manager_8h_source.html#l00059">59</a> du fichier <a class="el" href="game_manager_8h_source.html">gameManager.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a637cb3d706fe5f8b1c520324cbac73ed"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_tetromino.html">Tetromino</a> gameManager::getTeromino </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>getTeromino getter du tetromino courant </p>
+<dl class="section return"><dt>Renvoie</dt><dd>S.getTeromino : le <a class="el" href="class_tetromino.html" title="La classe Tetromino est un objet qui peut etre lui aussi present dans la Scene. Il represente la piec...">Tetromino</a> courant(la piece qui tombe) </dd></dl>
+
+<p>Définition à la ligne <a class="el" href="game_manager_8h_source.html#l00068">68</a> du fichier <a class="el" href="game_manager_8h_source.html">gameManager.h</a>.</p>
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="classgame_manager_a637cb3d706fe5f8b1c520324cbac73ed_cgraph.png" border="0" usemap="#classgame_manager_a637cb3d706fe5f8b1c520324cbac73ed_cgraph" alt=""/></div>
+<map name="classgame_manager_a637cb3d706fe5f8b1c520324cbac73ed_cgraph" id="classgame_manager_a637cb3d706fe5f8b1c520324cbac73ed_cgraph">
+<area shape="rect" id="node2" href="class_scene.html#aef0ebd71e55ef8b767c14881dfe2bf84" title="getTeromino: donne le tetromino courant qu&#39;on manipule" alt="" coords="237,5,376,32"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a0f980e9de05bc58ac618eb2f10b6232d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gameManager::keyPressEvent </td>
+          <td>(</td>
+          <td class="paramtype">QKeyEvent *&#160;</td>
+          <td class="paramname"><em>ev</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>gestion des controles de clavier </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ev</td><td>: "Qt::Key_Up" = retourner "Qt::Key_Right" = bouger a droit "Qt::Key_Down" = acceleration "Qt:Key_Left" = bouger a gauche </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Définition à la ligne <a class="el" href="game_manager_8cpp_source.html#l00091">91</a> du fichier <a class="el" href="game_manager_8cpp_source.html">gameManager.cpp</a>.</p>
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="classgame_manager_a0f980e9de05bc58ac618eb2f10b6232d_cgraph.png" border="0" usemap="#classgame_manager_a0f980e9de05bc58ac618eb2f10b6232d_cgraph" alt=""/></div>
+<map name="classgame_manager_a0f980e9de05bc58ac618eb2f10b6232d_cgraph" id="classgame_manager_a0f980e9de05bc58ac618eb2f10b6232d_cgraph">
+<area shape="rect" id="node2" href="class_scene.html#a4b92f6abd54da5a77d0c60924388cad5" title="rotate fait tourner le tetromino courant." alt="" coords="269,56,369,83"/><area shape="rect" id="node5" href="class_scene.html#a53ff5a09e1c2b039706023677708951c" title="makeMove: fait bouger le tetromino courant suivant la commande utilisateur (a droite, a gauche ou vers le bas). L&#39;action ne sera pas effectuee si elle n&#39;est pas valide." alt="" coords="254,107,383,133"/><area shape="rect" id="node3" href="class_tetromino.html#a4573e0ccce1fde38e745dffbd1558540" title="rotate" alt="" coords="464,5,584,32"/><area shape="rect" id="node4" href="class_tetromino.html#aefde80bd85feb2e13c1d88b9bb7d7f22" title="move" alt="" coords="465,56,583,83"/><area shape="rect" id="node6" href="class_scene_object.html#a47c0ac4c0c404b812b3b8d91a490e8c6" title="hitsTheWall" alt="" coords="437,107,611,133"/><area shape="rect" id="node7" href="class_scene_object.html#a08a364d539d87eb3962a15ff58c80ac2" title="hitsTheFloor2 verifie si l&#39;objet est enfonce en bas de la scene." alt="" coords="433,157,615,184"/><area shape="rect" id="node8" href="class_scene_object.html#ad5ba5917dcf69fcabcd36c5edab576c5" title="collide: verifie la collision entre deux SceneObject, c&#39;est a dire les deux possedent des parties qui..." alt="" coords="453,208,595,235"/></map>
+</div>
+</p>
+
+<p><div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="classgame_manager_a0f980e9de05bc58ac618eb2f10b6232d_icgraph.png" border="0" usemap="#classgame_manager_a0f980e9de05bc58ac618eb2f10b6232d_icgraph" alt=""/></div>
+<map name="classgame_manager_a0f980e9de05bc58ac618eb2f10b6232d_icgraph" id="classgame_manager_a0f980e9de05bc58ac618eb2f10b6232d_icgraph">
+<area shape="rect" id="node2" href="classwidget.html#a9bd43921188521397bfd559e878fe0af" title="quand le timer et gameManager marche, keyPressEvent() va passer les evenements au GameManager sinon i..." alt="" coords="253,5,408,32"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="aec14961735c2b69913fad9056bc5c6a5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool gameManager::need_newTetromino </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>need_newTetromino </p>
+<dl class="section return"><dt>Renvoie</dt><dd>S.need_new_tetromino : true si c'est on si on a besoin un nouveau <a class="el" href="class_tetromino.html" title="La classe Tetromino est un objet qui peut etre lui aussi present dans la Scene. Il represente la piec...">Tetromino</a> </dd></dl>
+
+<p>Définition à la ligne <a class="el" href="game_manager_8h_source.html#l00077">77</a> du fichier <a class="el" href="game_manager_8h_source.html">gameManager.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aef300aadc4273cb604f35072bd83cee9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gameManager::nextLevel </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>nextLevel va emettre un signal quand on a un nouveau niveau </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">niveau&lt;int&gt;</td><td>: le nouveau niveau </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p><div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="classgame_manager_aef300aadc4273cb604f35072bd83cee9_icgraph.png" border="0" usemap="#classgame_manager_aef300aadc4273cb604f35072bd83cee9_icgraph" alt=""/></div>
+<map name="classgame_manager_aef300aadc4273cb604f35072bd83cee9_icgraph" id="classgame_manager_aef300aadc4273cb604f35072bd83cee9_icgraph">
+<area shape="rect" id="node2" href="classgame_manager.html#a02a1a2ce80a6c1261744544229abb5d5" title="timerEvent va gerer les &quot;timer event&quot;" alt="" coords="221,5,395,32"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a2be1e3710075ad086df9fffe41983ba5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gameManager::scoreChanged </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>scoreChanged va emettre un signal quand on a une nouvelle note </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">score&lt;int&gt;</td><td>: la nouvelle note </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p><div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="classgame_manager_a2be1e3710075ad086df9fffe41983ba5_icgraph.png" border="0" usemap="#classgame_manager_a2be1e3710075ad086df9fffe41983ba5_icgraph" alt=""/></div>
+<map name="classgame_manager_a2be1e3710075ad086df9fffe41983ba5_icgraph" id="classgame_manager_a2be1e3710075ad086df9fffe41983ba5_icgraph">
+<area shape="rect" id="node2" href="classgame_manager.html#a029638f6842dc0372ed41df0f6cc7c9c" title="mainloop : gerer les fontions ci&#45;dessous 1) verifier si on a besoin un nouveau tetrimino par la valeu..." alt="" coords="248,31,416,57"/><area shape="rect" id="node3" href="classgame_manager.html#a02a1a2ce80a6c1261744544229abb5d5" title="timerEvent va gerer les &quot;timer event&quot;" alt="" coords="464,5,637,32"/><area shape="rect" id="node4" href="class_main_window.html#a5edcbc314e782645cdf4db101eeb247d" title="quand le jeu viens de commencer, la fonction start va initiliser l&#39;affichage de niveau et de note Il ..." alt="" coords="485,56,616,83"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ac69b353e652fb485c14af06213b5b955"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString gameManager::Show </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>show: sert d'intermediaire entre la classe <a class="el" href="class_scene.html" title="The Scene class is the scene manager used in the game. It&#39;s.">Scene</a> et le widget d'affichage </p>
+<dl class="section return"><dt>Renvoie</dt><dd>renvoi "Game Over" si le jeu a termine, sinon elle renvoi le dernier etat en date de la scene du Tetris </dd></dl>
+
+<p>Définition à la ligne <a class="el" href="game_manager_8h_source.html#l00048">48</a> du fichier <a class="el" href="game_manager_8h_source.html">gameManager.h</a>.</p>
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="classgame_manager_ac69b353e652fb485c14af06213b5b955_cgraph.png" border="0" usemap="#classgame_manager_ac69b353e652fb485c14af06213b5b955_cgraph" alt=""/></div>
+<map name="classgame_manager_ac69b353e652fb485c14af06213b5b955_cgraph" id="classgame_manager_ac69b353e652fb485c14af06213b5b955_cgraph">
+<area shape="rect" id="node2" href="class_scene.html#a12b68950547af161d6f3f88dd00f6e53" title="show: affichage de la carte" alt="" coords="198,5,295,32"/><area shape="rect" id="node3" href="class_scene_object.html#a90ed5025e4dd72be01c4c3d438d47cbd" title="print: affiche le contenu du SceneObject courant sur le tableau passe en parametre" alt="" coords="344,5,475,32"/></map>
+</div>
+</p>
+
+<p><div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="classgame_manager_ac69b353e652fb485c14af06213b5b955_icgraph.png" border="0" usemap="#classgame_manager_ac69b353e652fb485c14af06213b5b955_icgraph" alt=""/></div>
+<map name="classgame_manager_ac69b353e652fb485c14af06213b5b955_icgraph" id="classgame_manager_ac69b353e652fb485c14af06213b5b955_icgraph">
+<area shape="rect" id="node2" href="classwidget.html#a8dc7a01fc2d233cd5e9bde7ba975311a" title="timerEvent gere l&#39;affichage des pixels dans la scene" alt="" coords="197,5,325,32"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a92ca22acf4899040fb9e3a163f4aad7a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gameManager::tetrominoChanged </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>tetrominoChanged va emettre un signal quand on a un nouveau tetromino </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tmpType&lt;int&gt;</td><td>: le type de tetromino </td></tr>
+    <tr><td class="paramname">tmpRotatePosition&lt;int&gt;</td><td>: la postition de rotation de tetromino </td></tr>
+    <tr><td class="paramname">tmpCouleur&lt;int&gt;</td><td>: le couleur de tetromino </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p><div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="classgame_manager_a92ca22acf4899040fb9e3a163f4aad7a_icgraph.png" border="0" usemap="#classgame_manager_a92ca22acf4899040fb9e3a163f4aad7a_icgraph" alt=""/></div>
+<map name="classgame_manager_a92ca22acf4899040fb9e3a163f4aad7a_icgraph" id="classgame_manager_a92ca22acf4899040fb9e3a163f4aad7a_icgraph">
+<area shape="rect" id="node2" href="classgame_manager.html#a029638f6842dc0372ed41df0f6cc7c9c" title="mainloop : gerer les fontions ci&#45;dessous 1) verifier si on a besoin un nouveau tetrimino par la valeu..." alt="" coords="272,31,440,57"/><area shape="rect" id="node3" href="classgame_manager.html#a02a1a2ce80a6c1261744544229abb5d5" title="timerEvent va gerer les &quot;timer event&quot;" alt="" coords="488,5,661,32"/><area shape="rect" id="node4" href="class_main_window.html#a5edcbc314e782645cdf4db101eeb247d" title="quand le jeu viens de commencer, la fonction start va initiliser l&#39;affichage de niveau et de note Il ..." alt="" coords="509,56,640,83"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a02a1a2ce80a6c1261744544229abb5d5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gameManager::timerEvent </td>
+          <td>(</td>
+          <td class="paramtype">QTimerEvent *&#160;</td>
+          <td class="paramname"><em>event</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>timerEvent va gerer les "timer event" </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">event</td><td>utiliser event-&gt;timerID pour verifier c'est le timeur qu'on veau: event-&gt;time.timerID: appeler mainloop() event-&gt;time2.timerID: appeler <a class="el" href="classgame_manager.html#a09fc4c141e4009bbdf79c47dc624f5f7" title="affichage Appeler S.show() regulierement pour quelle ait une copie plus recente de son etat lorsqu&#39;on...">affichage()</a> event-&gt;time3.timerID: gerer les niveaus </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Définition à la ligne <a class="el" href="game_manager_8cpp_source.html#l00131">131</a> du fichier <a class="el" href="game_manager_8cpp_source.html">gameManager.cpp</a>.</p>
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="classgame_manager_a02a1a2ce80a6c1261744544229abb5d5_cgraph.png" border="0" usemap="#classgame_manager_a02a1a2ce80a6c1261744544229abb5d5_cgraph" alt=""/></div>
+<map name="classgame_manager_a02a1a2ce80a6c1261744544229abb5d5_cgraph" id="classgame_manager_a02a1a2ce80a6c1261744544229abb5d5_cgraph">
+<area shape="rect" id="node2" href="classgame_manager.html#a029638f6842dc0372ed41df0f6cc7c9c" title="mainloop : gerer les fontions ci&#45;dessous 1) verifier si on a besoin un nouveau tetrimino par la valeu..." alt="" coords="227,157,395,184"/><area shape="rect" id="node17" href="classgame_manager.html#a09fc4c141e4009bbdf79c47dc624f5f7" title="affichage Appeler S.show() regulierement pour quelle ait une copie plus recente de son etat lorsqu&#39;on..." alt="" coords="229,259,392,285"/><area shape="rect" id="node20" href="classgame_manager.html#ad5003b2be103867d004c9c8520a6f2d6" title="pause sert a mettre le gamemanager en pause ou a le relancer" alt="" coords="237,309,384,336"/><area shape="rect" id="node21" href="classgame_manager.html#aef300aadc4273cb604f35072bd83cee9" title="nextLevel va emettre un signal quand on a un nouveau niveau" alt="" coords="227,360,394,387"/><area shape="rect" id="node3" href="class_scene.html#a46523c47dc57083e6052e9daa989d4e5" title="new_Teromino" alt="" coords="477,5,627,32"/><area shape="rect" id="node4" href="classgame_manager.html#a92ca22acf4899040fb9e3a163f4aad7a" title="tetrominoChanged va emettre un signal quand on a un nouveau tetromino" alt="" coords="443,56,661,83"/><area shape="rect" id="node5" href="class_scene.html#a181b7a8684fe5dabe9d85c70a2b61497" title="deleteLines: suppression des lignes completes; modifie le score" alt="" coords="735,5,868,32"/><area shape="rect" id="node8" href="class_scene.html#a5fecb70ddb90dcde0eb0bc66875b88ed" title="doPhysics: gere la physique (gravite+ suppressions de lignes multiples...etc)" alt="" coords="488,157,616,184"/><area shape="rect" id="node14" href="classgame_manager.html#aa38b81b8fc1fab8589e30525beb1597c" title="IsGameOver Si le valeur de &quot;S.gameOver&quot; = true, il va arreter tous les timeurs et fair &quot;var_gameOver&quot;..." alt="" coords="461,208,643,235"/><area shape="rect" id="node16" href="classgame_manager.html#a2be1e3710075ad086df9fffe41983ba5" title="scoreChanged va emettre un signal quand on a une nouvelle note" alt="" coords="455,259,649,285"/><area shape="rect" id="node6" href="class_scene.html#a2c73e7f065e5df1726b170a6ca0cb794" title="simplify: regroupe les SceneObjects adjascents entre eux pour reduire le nombre d&#39;objets separes pres..." alt="" coords="970,81,1081,108"/><area shape="rect" id="node7" href="class_scene_object.html#a1d13d801e32173b4b138f06564ceb6f9" title="glue: comme le nom l&#39;indique, cette fonction colle Obj a l&#39;object courant. Rien n&#39;interdit de coller ..." alt="" coords="1158,81,1287,108"/><area shape="rect" id="node9" href="class_tetromino.html#aefde80bd85feb2e13c1d88b9bb7d7f22" title="move" alt="" coords="743,56,860,83"/><area shape="rect" id="node10" href="class_scene_object.html#a08a364d539d87eb3962a15ff58c80ac2" title="hitsTheFloor2 verifie si l&#39;objet est enfonce en bas de la scene." alt="" coords="710,107,893,133"/><area shape="rect" id="node11" href="class_scene_object.html#ad5ba5917dcf69fcabcd36c5edab576c5" title="collide: verifie la collision entre deux SceneObject, c&#39;est a dire les deux possedent des parties qui..." alt="" coords="730,157,873,184"/><area shape="rect" id="node12" href="class_scene.html#a09fef31f4f25e5c1ab2a1b4366710c05" title="gravity: fait tomber tout les objets(tout le monde tombe a la meme vitesse) et les relie entre eux (a..." alt="" coords="749,208,853,235"/><area shape="rect" id="node13" href="class_scene_object.html#aa84c13efa3bb490ca9443798710109c0" title="simple_fall: fait tomber l&#39;objet courant d&#39;une ligne" alt="" coords="942,208,1109,235"/><area shape="rect" id="node15" href="classgame_manager.html#af7fd2cf7b6a74dd3e095562361de2350" title="exitGame : juste pour debug Affichage &quot;Game Over&quot; si le jeu est termine" alt="" coords="717,259,885,285"/><area shape="rect" id="node18" href="class_scene.html#a12b68950547af161d6f3f88dd00f6e53" title="show: affichage de la carte" alt="" coords="503,309,601,336"/><area shape="rect" id="node19" href="class_scene_object.html#a90ed5025e4dd72be01c4c3d438d47cbd" title="print: affiche le contenu du SceneObject courant sur le tableau passe en parametre" alt="" coords="736,309,867,336"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<hr/>La documentation de cette classe a été générée à partir des fichiers suivants :<ul>
+<li>Source/QTetrisCore/<a class="el" href="game_manager_8h_source.html">gameManager.h</a></li>
+<li>Source/QTetrisCore/<a class="el" href="game_manager_8cpp_source.html">gameManager.cpp</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Généré le Lundi Mars 18 2013 21:56:40 pour QTetris par &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.3
+</small></address>
+</body>
+</html>
