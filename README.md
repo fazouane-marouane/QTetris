@@ -25,17 +25,17 @@ Le programme est un demonstrateur du projet Tetris.
 * Commencer les diagrammes de classes
 * Réaliser un mini Tetris (très simple jeu) en mode console : Premier prototype du jeu
 * But :
-** tester la suppression de lignes ;
-** tester les actions (rotations, déplacements…)
-** tester la chute
-** tester la fin du jeu
+    * tester la suppression de lignes ;
+    * tester les actions (rotations, déplacements…)
+    * tester la chute
+    * tester la fin du jeu
 * Description :
-**Carte : matrice
-**Pièces : des positions : x,y (Model) ; des étoiles (View)
-**Commandes données sur la console
-*Réaliser un prototype du système de menus
-*Approuver les diagrammes et implémenter le diagramme de classe en C++
-*Commencer la documentation
-*Travailler la GUI basique et l’intégrer au code
-*Développer la GUI et le système de menu
-*Rajouter la configuration par xml et un gestionnaire de son
+    * Carte : matrice
+    * Pièces : des positions : x,y (Model) ; des étoiles (View)
+    * Commandes données sur la console
+* Réaliser un prototype du système de menus
+* Approuver les diagrammes et implémenter le diagramme de classe en C++
+* Commencer la documentation
+* Travailler la GUI basique et l’intégrer au code
+* Développer la GUI et le système de menu
+* Rajouter la configuration par xml et un gestionnaire de son
