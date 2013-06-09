@@ -1,0 +1,6 @@
+<map id="Scene::show" name="Scene::show">
+<area shape="rect" id="node2" href="$classgame_manager.html#a09fc4c141e4009bbdf79c47dc624f5f7" title="affichage Appeler S.show() regulierement pour quelle ait une copie plus recente de son etat lorsqu&#39;on..." alt="" coords="152,5,315,32"/>
+<area shape="rect" id="node4" href="$classgame_manager.html#ac69b353e652fb485c14af06213b5b955" title="show: sert d&#39;intermediaire entre la classe Scene et le widget d&#39;affichage" alt="" coords="161,56,305,83"/>
+<area shape="rect" id="node3" href="$classgame_manager.html#a02a1a2ce80a6c1261744544229abb5d5" title="timerEvent va gerer les &quot;timer event&quot;" alt="" coords="363,5,536,32"/>
+<area shape="rect" id="node5" href="$classwidget.html#a8dc7a01fc2d233cd5e9bde7ba975311a" title="timerEvent gere l&#39;affichage des pixels dans la scene" alt="" coords="385,56,513,83"/>
+</map>

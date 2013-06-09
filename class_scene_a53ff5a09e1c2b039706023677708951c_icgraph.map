@@ -1,0 +1,4 @@
+<map id="Scene::makeMove" name="Scene::makeMove">
+<area shape="rect" id="node2" href="$classgame_manager.html#a0f980e9de05bc58ac618eb2f10b6232d" title="gestion des controles de clavier" alt="" coords="185,5,383,32"/>
+<area shape="rect" id="node3" href="$classwidget.html#a9bd43921188521397bfd559e878fe0af" title="quand le timer et gameManager marche, keyPressEvent() va passer les evenements au GameManager sinon i..." alt="" coords="432,5,587,32"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="SceneObject::collide" name="SceneObject::collide">
+<area shape="rect" id="node2" href="$class_scene.html#a5fecb70ddb90dcde0eb0bc66875b88ed" title="doPhysics: gere la physique (gravite+ suppressions de lignes multiples...etc)" alt="" coords="199,31,327,57"/>
+<area shape="rect" id="node6" href="$class_scene.html#ac5739680655eda8de8eb5f7dc80562fd" title="Scene::timerEvent" alt="" coords="199,81,327,108"/>
+<area shape="rect" id="node7" href="$class_scene.html#a53ff5a09e1c2b039706023677708951c" title="makeMove: fait bouger le tetromino courant suivant la commande utilisateur (a droite, a gauche ou vers le bas). L&#39;action ne sera pas effectuee si elle n&#39;est pas valide." alt="" coords="198,132,327,159"/>
+<area shape="rect" id="node3" href="$classgame_manager.html#a029638f6842dc0372ed41df0f6cc7c9c" title="mainloop : gerer les fontions ci&#45;dessous 1) verifier si on a besoin un nouveau tetrimino par la valeu..." alt="" coords="392,31,560,57"/>
+<area shape="rect" id="node4" href="$classgame_manager.html#a02a1a2ce80a6c1261744544229abb5d5" title="timerEvent va gerer les &quot;timer event&quot;" alt="" coords="624,5,797,32"/>
+<area shape="rect" id="node5" href="$class_main_window.html#a5edcbc314e782645cdf4db101eeb247d" title="quand le jeu viens de commencer, la fonction start va initiliser l&#39;affichage de niveau et de note Il ..." alt="" coords="645,56,776,83"/>
+<area shape="rect" id="node8" href="$classgame_manager.html#a0f980e9de05bc58ac618eb2f10b6232d" title="gestion des controles de clavier" alt="" coords="377,132,575,159"/>
+<area shape="rect" id="node9" href="$classwidget.html#a9bd43921188521397bfd559e878fe0af" title="quand le timer et gameManager marche, keyPressEvent() va passer les evenements au GameManager sinon i..." alt="" coords="633,132,788,159"/>
+</map>

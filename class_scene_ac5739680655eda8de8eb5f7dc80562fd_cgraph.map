@@ -1,0 +1,10 @@
+<map id="Scene::timerEvent" name="Scene::timerEvent">
+<area shape="rect" id="node2" href="$class_tetromino.html#aefde80bd85feb2e13c1d88b9bb7d7f22" title="move" alt="" coords="215,5,332,32"/>
+<area shape="rect" id="node3" href="$class_scene_object.html#a08a364d539d87eb3962a15ff58c80ac2" title="hitsTheFloor2 verifie si l&#39;objet est enfonce en bas de la scene." alt="" coords="182,56,365,83"/>
+<area shape="rect" id="node4" href="$class_scene_object.html#ad5ba5917dcf69fcabcd36c5edab576c5" title="collide: verifie la collision entre deux SceneObject, c&#39;est a dire les deux possedent des parties qui..." alt="" coords="202,107,345,133"/>
+<area shape="rect" id="node5" href="$class_scene_object.html#a95696937a096e824e9362d56b4e42fa0" title="hitsTheCeil verifie si l&#39;objet est enfonce en haut de la scene." alt="" coords="189,157,358,184"/>
+<area shape="rect" id="node6" href="$class_scene.html#a09fef31f4f25e5c1ab2a1b4366710c05" title="gravity: fait tomber tout les objets(tout le monde tombe a la meme vitesse) et les relie entre eux (a..." alt="" coords="221,208,325,235"/>
+<area shape="rect" id="node7" href="$class_scene_object.html#aa84c13efa3bb490ca9443798710109c0" title="simple_fall: fait tomber l&#39;objet courant d&#39;une ligne" alt="" coords="414,183,581,209"/>
+<area shape="rect" id="node8" href="$class_scene.html#a2c73e7f065e5df1726b170a6ca0cb794" title="simplify: regroupe les SceneObjects adjascents entre eux pour reduire le nombre d&#39;objets separes pres..." alt="" coords="442,233,553,260"/>
+<area shape="rect" id="node9" href="$class_scene_object.html#a1d13d801e32173b4b138f06564ceb6f9" title="glue: comme le nom l&#39;indique, cette fonction colle Obj a l&#39;object courant. Rien n&#39;interdit de coller ..." alt="" coords="630,233,759,260"/>
+</map>

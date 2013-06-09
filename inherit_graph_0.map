@@ -1,0 +1,13 @@
+<map id="Graphe hiérarchique des classes" name="Graphe hiérarchique des classes">
+<area shape="rect" id="node1" href="$class_menu_interface.html" title="L&#39;interface MenuInterface sert a regrouper les fonctionnalites communes ou pas de la classe Launcher ..." alt="" coords="6,31,109,57"/>
+<area shape="rect" id="node2" href="$class_launcher.html" title="Launcher" alt="" coords="176,5,251,32"/>
+<area shape="rect" id="node3" href="$class_menu.html" title="Menu" alt="" coords="186,56,241,83"/>
+<area shape="rect" id="node5" href="$class_audio_controller.html" title="AudioController" alt="" coords="158,411,269,437"/>
+<area shape="rect" id="node6" href="$class_audio_manager.html" title="AudioManager" alt="" coords="161,461,266,488"/>
+<area shape="rect" id="node7" href="$classgame_manager.html" title="le class gameMangager va gerer les regles du jeu, e.g. le choi de tetromino a l&#39;instant et a l&#39;avenir..." alt="" coords="161,107,265,133"/>
+<area shape="rect" id="node8" href="$class_high_scores.html" title="HighScores" alt="" coords="169,157,258,184"/>
+<area shape="rect" id="node9" href="$class_main_window.html" title="la fonction principaux du class mainwindow est a construire un GUI pour jour. Il va mettre en semble ..." alt="" coords="165,208,261,235"/>
+<area shape="rect" id="node10" href="$class_menu_manager.html" title="MenuManager" alt="" coords="161,259,265,285"/>
+<area shape="rect" id="node11" href="$class_scene.html" title="The Scene class is the scene manager used in the game. It&#39;s." alt="" coords="184,309,243,336"/>
+<area shape="rect" id="node12" href="$class_xml_parser.html" title="XmlParser" alt="" coords="173,360,254,387"/>
+</map>

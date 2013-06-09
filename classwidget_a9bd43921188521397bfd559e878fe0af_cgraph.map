@@ -1,0 +1,10 @@
+<map id="widget::keyPressEvent" name="widget::keyPressEvent">
+<area shape="rect" id="node2" href="$classgame_manager.html#a0f980e9de05bc58ac618eb2f10b6232d" title="gestion des controles de clavier" alt="" coords="209,81,407,108"/>
+<area shape="rect" id="node3" href="$class_scene.html#a4b92f6abd54da5a77d0c60924388cad5" title="rotate fait tourner le tetromino courant." alt="" coords="471,56,571,83"/>
+<area shape="rect" id="node6" href="$class_scene.html#a53ff5a09e1c2b039706023677708951c" title="makeMove: fait bouger le tetromino courant suivant la commande utilisateur (a droite, a gauche ou vers le bas). L&#39;action ne sera pas effectuee si elle n&#39;est pas valide." alt="" coords="457,107,586,133"/>
+<area shape="rect" id="node4" href="$class_tetromino.html#a4573e0ccce1fde38e745dffbd1558540" title="rotate" alt="" coords="667,5,787,32"/>
+<area shape="rect" id="node5" href="$class_tetromino.html#aefde80bd85feb2e13c1d88b9bb7d7f22" title="move" alt="" coords="668,56,785,83"/>
+<area shape="rect" id="node7" href="$class_scene_object.html#a47c0ac4c0c404b812b3b8d91a490e8c6" title="hitsTheWall" alt="" coords="640,107,813,133"/>
+<area shape="rect" id="node8" href="$class_scene_object.html#a08a364d539d87eb3962a15ff58c80ac2" title="hitsTheFloor2 verifie si l&#39;objet est enfonce en bas de la scene." alt="" coords="635,157,818,184"/>
+<area shape="rect" id="node9" href="$class_scene_object.html#ad5ba5917dcf69fcabcd36c5edab576c5" title="collide: verifie la collision entre deux SceneObject, c&#39;est a dire les deux possedent des parties qui..." alt="" coords="655,208,798,235"/>
+</map>

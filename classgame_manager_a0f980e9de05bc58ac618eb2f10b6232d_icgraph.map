@@ -1,0 +1,3 @@
+<map id="gameManager::keyPressEvent" name="gameManager::keyPressEvent">
+<area shape="rect" id="node2" href="$classwidget.html#a9bd43921188521397bfd559e878fe0af" title="quand le timer et gameManager marche, keyPressEvent() va passer les evenements au GameManager sinon i..." alt="" coords="253,5,408,32"/>
+</map>

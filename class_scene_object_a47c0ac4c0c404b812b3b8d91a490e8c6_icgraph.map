@@ -1,0 +1,5 @@
+<map id="SceneObject::hitsTheWall" name="SceneObject::hitsTheWall">
+<area shape="rect" id="node2" href="$class_scene.html#a53ff5a09e1c2b039706023677708951c" title="makeMove: fait bouger le tetromino courant suivant la commande utilisateur (a droite, a gauche ou vers le bas). L&#39;action ne sera pas effectuee si elle n&#39;est pas valide." alt="" coords="227,5,357,32"/>
+<area shape="rect" id="node3" href="$classgame_manager.html#a0f980e9de05bc58ac618eb2f10b6232d" title="gestion des controles de clavier" alt="" coords="406,5,605,32"/>
+<area shape="rect" id="node4" href="$classwidget.html#a9bd43921188521397bfd559e878fe0af" title="quand le timer et gameManager marche, keyPressEvent() va passer les evenements au GameManager sinon i..." alt="" coords="653,5,808,32"/>
+</map>

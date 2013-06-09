@@ -1,0 +1,4 @@
+<map id="MenuInterface" name="MenuInterface">
+<area shape="rect" id="node2" href="$class_launcher.html" title="{Launcher\n||+ Launcher()\l+ ~Launcher()\l+ set_Widget()\l+ updateMenu()\l}" alt="" coords="5,265,117,386"/>
+<area shape="rect" id="node3" href="$class_menu.html" title="{Menu\n|# childNodes\l|+ Menu()\l+ ~Menu()\l+ add_subMenu()\l+ updateMenu()\l}" alt="" coords="143,265,265,386"/>
+</map>
